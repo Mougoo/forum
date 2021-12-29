@@ -121,3 +121,5 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 LOGIN_REDIRECT_URL = '/'    # 登入成功後導向首頁
+
+LOGIN_URL = '/user/login/'
